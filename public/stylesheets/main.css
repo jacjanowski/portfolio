@@ -1,7 +1,13 @@
 body {
 	background-color: #e3e3e3;
 }
-.ui.pointing.secondary.menu .item:hover {
-    border-bottom-color: #919191;
 
+/* Links for the menu */
+.ui.secondary.inverted.menu .link.item, .ui.secondary.inverted.menu a.item {
+	color: white;
+}
+
+.container {
+	padding-top: 500px;
+	padding-bottom: 500px;
 }
