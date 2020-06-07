@@ -1,0 +1,53 @@
+<%- include("partials/header") %>
+
+
+<div class="ui inverted vertical masthead center aligned segment">
+	
+
+	<div class="ui grid">
+	  <div class="row">
+		<div class="three wide column">
+		  <img src="/stylesheets/imgs/uic.png">
+		</div>
+		<div class="thirteen wide column">
+		  <p>I am a software engineering student at UIC with a <em>great </em>passion for web development!</p>
+		</div>
+	  </div>
+	  <div class="row">
+		<div class="three wide column">
+		  <img>
+		</div>
+		<div class="ten wide column">
+		  <p></p>
+		</div>
+		<div class="three wide column">
+		  <img>
+		</div>
+	  </div>
+	</div>
+	</div>
+
+
+<button class="ui button primary" id="pop">Modal Button</button>
+
+<!------- MODAL BUTTON POP UP INFORMATION ------->
+<div class="ui basic modal" id="popper">
+  <div class="ui icon header">
+    <i class="archive icon"></i>
+    Archive Old Messages
+  </div>
+  <div class="content">
+    <p>Your inbox is getting full, would you like us to enable automatic archiving of old messages?</p>
+  </div>
+  <div class="actions">
+    <div class="ui red basic cancel inverted button">
+      <i class="remove icon"></i>
+      No
+    </div>
+    <div class="ui green ok inverted button">
+      <i class="checkmark icon"></i>
+      Yes
+    </div>
+  </div>
+</div>
+<%- include("partials/footer") %>
