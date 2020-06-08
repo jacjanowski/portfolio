@@ -2,16 +2,54 @@ body {
 	background-color: #e3e3e3;
 }
 
+
+
+.row {
+	margin:auto;
+}
+
 /* Links for the menu */
 .ui.secondary.inverted.menu .link.item, .ui.secondary.inverted.menu a.item {
 	color: white;
+	
+}
+
+.ui.secondary.pointing.menu {
+	margin-left: 10em;
 }
 
 .container {
-	padding-top: 500px;
-	padding-bottom: 500px;
+	margin-left: 10em;
+	margin-right: 10em;
 }
 
+
+.ui.grid{
+	margin-right: 10em;
+	margin-left: 10em;
+}
 .ui.header{
 	color: white;
+}
+
+#banner-text {
+	padding-top: 50px;
+	font-size: 2em;
+}
+.ui.button{
+	margin: auto;
+}
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #787878;
+  color: white;
+  text-align: center;
+}
+
+
+#body-text{
+	font-size: 55px;
 }
