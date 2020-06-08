@@ -11,3 +11,7 @@ body {
 	padding-top: 500px;
 	padding-bottom: 500px;
 }
+
+.ui.header{
+	color: white;
+}
