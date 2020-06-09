@@ -12,6 +12,9 @@ span, a{
 	color: white;
 	
 } 
+#profile-pic{
+	padding-bottom: 10px;
+}
 
 img {
 	min-height: 200px;
@@ -19,14 +22,10 @@ img {
 }
 
 #banner-text {
-
+	text-shadow: 1px 1px 2px black, 0 0 35px #c8c9c3, 0 0 5px black;
 	font-size: 2em;
 }
 
-#name {
-	color: white;
-	
-}
 
 .ui.button{
 	padding-top: 10px;
