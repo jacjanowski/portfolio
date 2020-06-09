@@ -14,7 +14,7 @@ $(document).ready(function() {
 
 $(window).scroll(function(){
 	$("#fade-scroll").each(function(){
-		$("#fade-scroll").css("opacity", 1 - $(window).scrollTop() / 350);
+		$("#fade-scroll").css("opacity", 1 - $(window).scrollTop() / 550);
 	});
     
   });

@@ -1,40 +1,31 @@
 body {
 	background-color: #e3e3e3;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
-
-
-.row {
-	margin:auto;
+span, a{
+	color: #3B80AD;
 }
 
 /* Links for the menu */
 .ui.secondary.inverted.menu .link.item, .ui.secondary.inverted.menu a.item {
 	color: white;
 	
-}
+} 
 
-.ui.secondary.pointing.menu {
-	margin-left: 10em;
-}
-
-.container {
-	margin-left: 10em;
-	margin-right: 10em;
+img {
+	min-height: 200px;
+	min-width: 250px;
 }
 
 
-.ui.grid{
-	margin-right: 10em;
-	margin-left: 10em;
-}
-.ui.header{
-	color: white;
-}
 
 #banner-text {
 	padding-top: 50px;
 	font-size: 2em;
+}
+#body-text{
+	font-size: 55px;
 }
 .ui.button{
 	margin: auto;
@@ -49,7 +40,9 @@ body {
   text-align: center;
 }
 
-
-#body-text{
-	font-size: 55px;
+@media only screen and (min-width: 1200px)
+.ui.container {
+    width: 1127px;
+    margin-left: auto !important;
+    margin-right: auto !important;
 }
