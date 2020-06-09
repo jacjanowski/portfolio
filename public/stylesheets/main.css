@@ -18,16 +18,18 @@ img {
 	min-width: 250px;
 }
 
-
-
 #banner-text {
-	padding-top: 50px;
+
 	font-size: 2em;
 }
-#body-text{
-	font-size: 55px;
+
+#name {
+	color: white;
+	
 }
+
 .ui.button{
+	padding-top: 10px;
 	margin: auto;
 }
 .footer {
