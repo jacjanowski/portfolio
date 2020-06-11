@@ -4,15 +4,15 @@ var express = require("express"),
 
 var app = express();
 	
-mongoose.connect("mongodb://localhost/portfolio", {
-    useUnifiedTopology: true,
-    useNewUrlParser: true,
-    useCreateIndex: true
-  })
-  .then(() => console.log('DB connected!'))
-  .catch(err => {
-    console.log(`DB Connection Error: ${err.message}`);
-  });
+// mongoose.connect("mongodb://localhost/portfolio", {
+//     useUnifiedTopology: true,
+//     useNewUrlParser: true,
+//     useCreateIndex: true
+//   })
+//   .then(() => console.log('DB connected!'))
+//   .catch(err => {
+//     console.log(`DB Connection Error: ${err.message}`);
+//   });
 app.use(bodyParser.urlencoded({extended:true}));
 
 
