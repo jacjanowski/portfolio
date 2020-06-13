@@ -55,13 +55,15 @@ img {
   bottom: 0;
   width: 100%;
   background-color: #787878;
-  color: white;
+  color: whitesmoke;
   text-align: center;
 }
 
+
+
 @media only screen and (min-width: 1200px)
 .ui.container {
-    width: 1127px;
+    width: 800px;
     margin-left: auto !important;
     margin-right: auto !important;
 }
