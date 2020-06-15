@@ -16,10 +16,10 @@ p {
 	
 } 
 
-.mainMenu {
+/* .mainMenu {
 	display: inline-block;
 	margin-top: 40px;
-}
+} */
 #profile-pic{
 	
 	margin-bottom: 12px;
@@ -67,9 +67,8 @@ img {
   text-align: center;
 }
 
-h1:first-child {
+#toggle-bar {
 	position: absolute;
-	padding-bottom: 10px;
 	cursor: pointer;
 }
 
@@ -78,15 +77,16 @@ h1:first-child {
 		display: none;
 	}
 	.mainMenu.hamburger{
-		
+		margin-top: 20px;
 		display: block;
-		
+		cursor: pointer;
+
 	}
 }
 
 @media (min-width: 769px){
 	.mainMenu{
-		display: initial;
+		display: flex;
 	}
 
 	#toggle-bar{
