@@ -15,6 +15,11 @@ p {
 	color: white;
 	
 } 
+
+.mainMenu {
+	display: inline-block;
+	margin-top: 40px;
+}
 #profile-pic{
 	
 	margin-bottom: 12px;
@@ -39,6 +44,9 @@ img {
 	padding-top: 100px;
 	height: 0;
 }
+#hamburger {
+	display: none;
+}
 
 .ui.button{
 	padding-top: 10px;
@@ -59,11 +67,30 @@ img {
   text-align: center;
 }
 
+h1:first-child {
+	position: absolute;
+	padding-bottom: 10px;
+	cursor: pointer;
+}
 
+@media (max-width: 768px){
+	.mainMenu{
+		display: none;
+	}
+	.mainMenu.hamburger{
+		
+		display: block;
+		
+	}
+}
 
-@media only screen and (min-width: 1200px)
-.ui.container {
-    width: 800px;
-    margin-left: auto !important;
-    margin-right: auto !important;
+@media (min-width: 769px){
+	.mainMenu{
+		display: initial;
+	}
+
+	#toggle-bar{
+		display: none;
+	}
+
 }
