@@ -26,13 +26,10 @@ app.get("/", function(req,res){
 	res.render("landing");
 });
 
-app.get("/projects", function(req,res){
-	res.render("projects");
+app.get("/contact", function(req,res){
+	res.render("contact");
 });
 
-app.get("/more-information", function(req,res){
-	res.render("more-information");
-});
 app.listen(3000, function(req,res){
 	console.log("server is listening.....");
 });
