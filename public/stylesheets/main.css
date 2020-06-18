@@ -7,10 +7,15 @@ a {
 	cursor: pointer;
 }
 
-/* 'Address & Contact Information' tag */
+/*---- 'Address & Contact Information' tag -----*/
 .ui.center.aligned.header {
 	color: #1b1c1d;
 }
+
+em {
+	color: whitesmoke;
+}
+/* ----------------------------------------- */
 
 p {
 	font-size: 15px;
@@ -32,10 +37,11 @@ p {
 	margin: auto;
 }
 
-
 .column{
 	margin: auto;
-}
+	
+} 
+
 #banner-text {
 	margin: auto;
 	font-size: 2em;
@@ -53,9 +59,6 @@ p {
 
 
 
-span{
-	font-weight: normal;
-}
 
 
 
@@ -80,6 +83,7 @@ span{
 	margin: 20px 0 20px 0px;
 	
 }
+
 
 .footer {
   position: relative;
