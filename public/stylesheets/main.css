@@ -69,11 +69,18 @@ p {
 	margin: auto;
 }
 
-.ui.github {
-	background: #787878;
-	color: whitesmoke;
+.extra {
+	text-align: center;
 }
 
+.ui.github {
+	background: lightgray;
+	
+}
+
+.ui.middle.aligned.container {
+	margin: auto;
+}
 
 /* =========================================== */
 #divider {
@@ -85,10 +92,7 @@ p {
 	
 }
 
-.ui.button{
-	/* padding-top: 10px;
-	margin: auto; */
-}
+
 .ui.stripe.segment {
 	margin: 20px 0 20px 0px;
 	
@@ -99,6 +103,7 @@ p {
 }
 
 .footer {
+	/* margin-top: 15%;	 */
   position: relative;
   left: 0;
   bottom: 0;
@@ -125,6 +130,30 @@ p {
 		cursor: pointer;
 
 	}
+
+	.extra{
+		margin-bottom: 15%;
+	}
+	
+	#divider {
+		margin-top: 20%;
+	}
+	#fade-scroll {
+		max-height: 420px;
+	}
+	#profile-pic {
+		margin: auto;
+		padding: 2px;
+		max-width: 120px;
+	}
+	#banner-text {
+		margin: auto;
+		padding-top: 10px;
+		font-size: 15px;
+	}
+	.content>h3 {
+		margin-top: 10%;
+	}
 	
 
 }
@@ -139,7 +168,9 @@ p {
 	#toggle-bar{
 		display: none;
 	}
-	
+	#menuBar {
+		margin-bottom: 20px;
+	}
 	
 	
 
