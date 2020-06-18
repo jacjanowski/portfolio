@@ -12,13 +12,8 @@ p {
 }
 
 
-/* .mainMenu {
-	display: inline-block;
-	margin-top: 40px;
-} */
 #profile-pic{
-	max-height: 400px;
-	max-width: 400px;
+
 	margin-bottom: 12px;
 	box-shadow: 0 4px 8px 0 rgba(211,211,211, 0.2), 0 6px 20px 0 rgba(211, 211, 211, 0.5);
 
@@ -78,6 +73,10 @@ p {
 #toggle-bar {
 	position: absolute;
 	cursor: pointer;
+}
+.ui.facebook, .ui.twitter {
+	
+	display: inline-block;
 }
 
 /* When the hamburger is displayed */
