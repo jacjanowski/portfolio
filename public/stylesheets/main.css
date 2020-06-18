@@ -7,6 +7,11 @@ a {
 	cursor: pointer;
 }
 
+/* 'Address & Contact Information' tag */
+.ui.center.aligned.header {
+	color: #1b1c1d;
+}
+
 p {
 	font-size: 15px;
 }
@@ -27,6 +32,7 @@ p {
 	margin: auto;
 }
 
+
 .column{
 	margin: auto;
 }
@@ -42,6 +48,21 @@ p {
 /* ------------------------------------------------------------------ */
 
 
+
+/* ------Information like address and where to find you here -------*/
+
+
+
+span{
+	font-weight: normal;
+}
+
+
+
+
+
+
+/* =========================================== */
 #divider {
 	padding-top: 100px;
 	height: 0;
