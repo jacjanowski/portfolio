@@ -2,6 +2,7 @@ var express = require("express"),
 	mongoose = require("mongoose"),
 	bodyParser = require("body-parser");
 
+var PORT = process.env.PORT || 3000;
 var app = express();
 	
 // mongoose.connect("mongodb://localhost/portfolio", {
@@ -30,6 +31,6 @@ app.get("/contact", function(req,res){
 	res.render("contact");
 });
 
-app.listen(3000, function(req,res){
-	console.log("server is listening.....");
+app.listen(PORT,function(){
+console.log('server successfully started on port '+PORT);
 });
