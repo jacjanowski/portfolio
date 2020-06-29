@@ -11,8 +11,13 @@ a {
 /*---- 'Address & Contact Information' tag -----*/
 .ui.center.aligned.header {
 	color: #1b1c1d;
+	margin: auto;
+	margin-top: 5rem;
 }
 
+.ui.ordered.steps {
+	margin: auto;
+}
 em {
 	color: whitesmoke;
 }
@@ -25,6 +30,7 @@ h4 {
 p {
 	font-size: 15px;
 }
+
 
 
 #profile-pic{
