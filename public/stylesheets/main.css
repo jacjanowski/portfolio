@@ -160,7 +160,10 @@ p {
 	.content>h3 {
 		margin-top: 10%;
 	}
-	
+	.ui.ordered.steps {
+		margin-bottom: 2rem;
+		margin-top: 2rem;
+	}
 
 }
 
@@ -178,6 +181,9 @@ p {
 		margin-bottom: 20px;
 	}
 	
-	
+	.ui.ordered.steps {
+		margin-bottom: 2rem;
+		margin-top: 2rem;
+	}
 
 }
