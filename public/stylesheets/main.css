@@ -90,8 +90,9 @@ p {
 
 /* =========================================== */
 #divider {
+	margin-top: 10%;
 	color: black;
-	height: 0;
+	
 }
 #toggle-bar {
 	padding-top: 15px;
@@ -123,7 +124,12 @@ p {
 	position: absolute;
 	cursor: pointer;
 }
-
+#modalItem {
+	margin-top: 2rem;
+}
+.fade {
+	opacity: 1;
+}
 
 /* When the hamburger is displayed */
 @media (max-width: 768px){
