@@ -22,9 +22,11 @@ em {
 	color: whitesmoke;
 }
 
-h4 {
-	text-decoration: underline;
+#school-info-text{
+	font-size: 22px;
 }
+
+
 /* ----------------------------------------- */
 
 p {
@@ -89,16 +91,23 @@ p {
 }
 
 /* =========================================== */
+/* Future plans */
+
 #divider {
 	margin-top: 10%;
 	color: black;
 	
 }
+
+
+.ui.basic.segment:nth-last-of-type(1){
+	padding-bottom: 130px;	
+}
 #toggle-bar {
 	padding-top: 15px;
 	
 }
-
+/* ---------------------------------------- */
 
 .ui.stripe.segment {
 	margin: 20px 0 20px 0px;
