@@ -14,8 +14,8 @@ a {
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 .ui.header {
-	font-family: monospace;
-	color: #7ba3e3;
+	font-variant: small-caps;
+	color: #008a5a;
 }
 /*---- 'Address & Contact Information' tag -----*/
 .ui.center.aligned.header {
@@ -38,14 +38,14 @@ em {
 }
 
 #school-info-text{
-	font-size: 22px;
+	font-size: 1.8em;
 }
 
 
 /* ----------------------------------------- */
 
 p {
-	font-size: 17px;
+	font-size: 1.5em;
 }
 
 
@@ -160,6 +160,8 @@ p {
 	opacity: 1;
 }
 
+
+
 /* When the hamburger is displayed */
 @media (max-width: 768px){
 	.mainMenu{
@@ -180,7 +182,7 @@ p {
 		margin-top: 20%;
 	}
 	#fade-scroll {
-		max-height: 420px;
+		max-height: 500px;
 	}
 	#profile-pic {
 		margin: auto;
