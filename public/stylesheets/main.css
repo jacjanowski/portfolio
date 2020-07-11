@@ -2,6 +2,9 @@ body {
 	background-color: #e3e3e3;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
+h4{
+	color: #1b1c1d;
+}
 h1{
 	margin-bottom: 10px;
 }
@@ -139,13 +142,14 @@ p {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #787878;
+  background-color: #adadad;
   color: whitesmoke;
   text-align: center;
 	
 }
 
 #footer-text {
+	color: #1b1c1d;
 	font-size: 12px;
 }
 
