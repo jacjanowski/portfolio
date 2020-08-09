@@ -60,7 +60,10 @@ p {
 
 }
 
-
+.school-info li{
+	padding: 10px 5px;
+	font-size: 20px;
+}
 
 
 /* -----Dealing with alignment and style for jumbotron text----- */
