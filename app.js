@@ -39,6 +39,10 @@ app.get("/", function(req,res){
 	res.render("landing");
 });
 
+// app.get("/email",function(req,res){
+// 	res.render("email");
+// });
+
 app.get("/contact", function(req,res){
 	res.render("contact", {date: date} );
 });
