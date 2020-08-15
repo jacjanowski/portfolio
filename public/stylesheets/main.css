@@ -102,10 +102,7 @@ p {
 	text-align: center;
 }
 
-.ui.github {
-	background: lightgray;
-	
-}
+
 
 .ui.middle.aligned.container {
 	margin: auto;
@@ -139,21 +136,21 @@ p {
 	padding-bottom: 2rem;
 }
 
-.footer {
+#footer {
   padding-top: 15px;
   position: relative;
   left: 0;
   bottom: 0;
+  margin: 0;
   width: 100%;
-  background-color: #adadad;
-  color: whitesmoke;
+  background-color: #c9c9c9;
   text-align: center;
 	
 }
 
 #footer-text {
 	color: #1b1c1d;
-	font-size: 12px;
+	font-size: 8px;
 }
 
 #toggle-bar {
