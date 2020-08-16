@@ -147,7 +147,14 @@ p {
   text-align: center;
 	
 }
+#nextPg {
+	text-align: center;
+}
 
+ #footer-text p{
+	display: flex;
+	
+}
 #footer-text {
 	color: #1b1c1d;
 	font-size: 8px;
