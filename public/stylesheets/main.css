@@ -21,9 +21,9 @@ a.button {
 #name {
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
-.ui.header {
-	font-variant: small-caps;
-	color: #346beb;
+h3.ui.header {
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 }
 .ui.inverted {
 	display: block;
@@ -208,6 +208,13 @@ section.visible {
 	transform: translate(0, 0); 
 }
 
+#project {
+	color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+#project:hover {
+	text-shadow: 2px 2px 5px darkblue;
+}
 /* When the hamburger is displayed */
 @media (max-width: 768px){
 	.mainMenu{
