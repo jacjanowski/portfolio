@@ -22,8 +22,8 @@ a.button {
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 h3.ui.header {
-  color: white;
-  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    color: lightskyblue;
+    text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px darkslategrey;
 }
 .ui.inverted {
 	display: block;
@@ -46,9 +46,6 @@ h3.ui.header {
 }
 .ui.ordered.steps {
 	margin: auto;
-}
-em {
-	color: whitesmoke;
 }
 
 #school-info-text{
@@ -209,8 +206,8 @@ section.visible {
 }
 
 #project {
-	color: #babcff;
-    text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px darkblue;
+    color: lightskyblue;
+    text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px darkslategrey;
 }
 #project:hover {
 	text-shadow: 1px 1px 2px white, 0 0 25px white, 0 0 5px darkblue;
