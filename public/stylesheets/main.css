@@ -22,8 +22,10 @@ a.button {
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 h3.ui.header {
-    color: lightblue;
-    text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px darkslategrey;
+    color: #000;
+	font-family: 'Quicksand', sans-serif;
+	
+	font-size: 24px;
 }
 .ui.inverted {
 	display: block;
@@ -34,6 +36,7 @@ h3.ui.header {
 /*---- 'Address & Contact Information' tag -----*/
 .ui.center.aligned.header {
 	color: #1b1c1d;
+	font-family: 'Quicksand', sans-serif;
 	margin: auto;
 	margin-top: 5rem;
 	margin-bottom: 5rem;
@@ -56,7 +59,10 @@ h3.ui.header {
 /* ----------------------------------------- */
 
 p {
-	font-size: 1.5em;
+	font-size: 1.75em;
+	color: #808080;
+	font-family: 'Darker Grotesque', sans-serif;
+	
 }
 
 .ui.large.rounded:hover {
@@ -175,6 +181,8 @@ p {
 
  #footer-text p{
 	display: flex;
+	 font-size: 18px;
+	 color: #000;
 	
 }
 #footer-text {
@@ -205,11 +213,32 @@ section.visible {
 	transform: translate(0, 0); 
 }
 
-#project {
-    color: lightblue;
+h3.ui.header > a {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 24px;
+  position: relative;
+  color: #000;
+  text-decoration: none;
 }
-#project:hover {
-	text-shadow: 1px 1px 2px gray, 0 0 25px black, 0 0 5px darkblue;
+
+h3.ui.header > a:hover {
+  color: #000;
+}
+h3.ui.header > a::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out 0s;
+}
+h3.ui.header > a:hover::before {
+  visibility: visible;
+  transform: scaleX(1);
 }
 /* When the hamburger is displayed */
 @media (max-width: 768px){
