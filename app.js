@@ -1,19 +1,9 @@
 var express = require("express"),
-	mongoose = require("mongoose"),
 	bodyParser = require("body-parser");
 
 var PORT = process.env.PORT || 3000;
 var app = express();
-	
-// mongoose.connect("mongodb://localhost/portfolio", {
-//     useUnifiedTopology: true,
-//     useNewUrlParser: true,
-//     useCreateIndex: true
-//   })
-//   .then(() => console.log('DB connected!'))
-//   .catch(err => {
-//     console.log(`DB Connection Error: ${err.message}`);
-//   });
+
 app.use(bodyParser.urlencoded({extended:true}));
 
 
@@ -39,9 +29,6 @@ app.get("/", function(req,res){
 	res.render("landing");
 });
 
-// app.get("/email",function(req,res){
-// 	res.render("email");
-// });
 
 app.get("/contact", function(req,res){
 	res.render("contact", {date: date} );
