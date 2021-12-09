@@ -1,5 +1,6 @@
 body {
-	background-color: #e3e3e3;
+	background: rgb(122,122,122);
+	background: linear-gradient(90deg, rgba(122,122,122,1) 0%, rgba(99,132,122,1) 41%, rgba(166,222,180,1) 100%, rgba(0,212,255,1) 100%);
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
@@ -7,6 +8,7 @@ a {
 	cursor: pointer;
 	
 }
+
 
 /*---- 'Address & Contact Information' tag -----*/
 .ui.center.aligned.header {
@@ -25,6 +27,7 @@ h4 {
 p {
 	font-size: 15px;
 }
+
 
 
 #profile-pic{
