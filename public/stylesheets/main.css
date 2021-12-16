@@ -298,6 +298,21 @@ h3.ui.header > a:hover::before {
 		margin-top: 2rem;
 	}
 
+	.css-typing p {
+		/* visibility: hidden; */
+		display: none;
+	}
+	
+	#middle {
+		display: contents;
+		margin: auto;
+	}
+}
+
+@media (max-width: 900px){
+	.css-typing p{
+		color: green;
+	}
 }
 
 
